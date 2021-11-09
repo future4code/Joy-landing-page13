@@ -294,7 +294,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 130vh;
 }
 
 .services h1 {
@@ -332,8 +332,7 @@
       to bottom,
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
-    ),
-    url("/images/pic3.jpg");
+    );
   background-size: cover;
   position: relative;
   color: #fff;
@@ -348,8 +347,8 @@
       to bottom,
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.9) 100%
-    ),
-    url("/images/pic4.jpg");
+    );
+    
 }
 
 .services__card h2 {
@@ -388,7 +387,24 @@
   cursor: pointer;
 }
 
-
+.footer{
+  background-color: #6DDAD3;
+  height: auto;
+  max-width: auto;
+  display: flex;
+  flex-direction:column ;
+  align-items: center;
+  font-size: 20px;
+  
+}
+#redes_sociais{
+    display: flex;
+    justify-content: center;
+}
+#insta, #face,#linke,#youtube{
+  width: 80px;
+  padding: 20px;
+}
 
 
 
