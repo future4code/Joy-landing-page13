@@ -1,8 +1,9 @@
 * {
-    margin: 0;
-    padding: 0;
-    
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+}
 
 body{
     background-color: #132235;
@@ -102,8 +103,7 @@ h1{
   align-items: center;
   margin-top: 100px;
 }
-
-p{
+.header>p{
   font-size: 15pt;
   color: #fff;
   display: flex;
@@ -126,7 +126,8 @@ form{
   border: none;
   outline: none;
   border-radius: 4px;
-  margin-top: 20px;
+  margin: 20px;
+  
 }
 
 .sbtn:hover {
@@ -159,33 +160,21 @@ form{
     
 }
 
-footer {
+.footer{
   background-color: #6DDAD3;
-  display: flex;
-  justify-content: space-between;
   height: auto;
-  max-width: 1300px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: auto;
-  padding-left: auto;
-  margin-top: 20px;
-}
-
-a {
   display: flex;
-  flex-direction: row;
-  width: 50px; 
-  height: 50px;
-  padding-left: 3px;
-    
-}
-
-#face,#insta,#linke,#youtube {
-  display: flex;
-  flex-direction: row;
-  width: 50px; 
-  height: 50px;
-    
+  flex-direction:column ;
+  align-items: center;
+  font-size: 20px;
+  color: black;
   
+}
+#redes_sociais{
+    display: flex;
+    justify-content: center;
+}
+#insta, #face,#linke,#youtube{
+  width: 80px;
+  padding: 20px;
 }
